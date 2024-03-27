@@ -131,7 +131,7 @@ app.put('/books/:bookId/', async (request, response) => {
   response.send('Book Updated Sucessfully')
 })
 
-//Update Book API
+//Delete Book API
 
 app.delete('/books/:bookId/', async (request, response) => {
   const {bookId} = request.params
